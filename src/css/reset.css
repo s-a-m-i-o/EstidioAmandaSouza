@@ -6,12 +6,11 @@
 }
 
 html {
-    scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;}
 
 body {
     font-family: "Outfit", sans-serif;
-}
+}  
 
 a {
     cursor: pointer;
