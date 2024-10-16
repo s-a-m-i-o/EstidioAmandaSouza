@@ -1,0 +1,79 @@
+
+
+.cabecalho {
+    display: flex;
+    border-bottom: 3px solid #fff;
+}
+
+.cabecalho img {
+    width: 150px;
+    filter: drop-shadow(0 0 7px #fe0171);
+}
+
+.cabecalho .em-cima {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho .em-cima h1 {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.cabecalho .em-cima nav .bi-instagram:hover {
+    color: red;
+}
+.cabecalho .em-cima nav .bi-facebook:hover {
+    color: blue;
+}
+.cabecalho .em-cima nav .bi-whatsapp:hover {
+    color: green;
+}
+
+.cabecalho .em-cima i {
+    font-size: 30px;
+    margin: 5px;
+    transition: .3s;
+}
+/* FIM EM-CIMA */
+
+/* SUPERIOR- FIXO */
+.superior-fixo {
+    background-color: #000;
+    color: #fff;
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.superior-fixo a{
+    padding: 5px 45px;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.superior-fixo a:hover {
+    background-color: var(--rosa);
+    color: #000;
+}
+
+/* FIM SUPERIOR FIXO */
+
+/* DIV MENU MOBILE */
+.mobile .mobile-menu-icon button {
+    border: none;
+    cursor: pointer;
+}
+
+.mobile .mobile-menu-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: var(--rosa-logo);
+    margin: 3px;
+}

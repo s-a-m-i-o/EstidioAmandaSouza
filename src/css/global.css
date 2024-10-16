@@ -1,0 +1,24 @@
+
+.nome {    
+        font-family: "Dancing Script", cursive;
+        font-size: 28px;
+        color: var(--rosa-logo);
+        filter: drop-shadow(1px 1px 1px black);
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 40px;    
+    height: 100vh;
+}
+
+h1,h2,h3,h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

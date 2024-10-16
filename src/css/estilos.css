@@ -1,0 +1,215 @@
+h2 {    
+    font-weight: 200;
+    font-size: 35px;
+    padding: 10px 4%;
+}
+
+.geral .inicio .container {
+    height: 200px;
+    padding: 40px 4%;
+}
+
+.geral .inicio .container p {
+    text-align: center;
+}
+/* FIM INICIO */
+
+/* TRANÇAS */
+
+.geral .trancas h2 {
+    margin-bottom: 30px;
+}
+
+.geral .trancas .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.geral .trancas .imagem img {
+    width: 220px;
+    height: 250px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #232323;
+}
+/* FIM TRANÇAS */
+
+/* CURSOS */
+.geral .cursos {
+    background-color: var(--rosa);
+}
+
+.geral .cursos .cards img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #232323;
+}
+
+.geral .cursos .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.geral .cursos .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.geral .cursos .cards .card p {
+    width: 600px;
+    height: 200px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 5%;
+}
+/* FIM CURSOS */
+
+/* NOIVAS */
+
+.geral .noivas .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.geral .noivas .container h3 {
+    margin-bottom: 90px;
+    font-weight: 300;
+}
+
+.geral .noivas .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.geral .noivas .flex img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #232323;
+}
+
+.geral .noivas .container p {
+    text-align: justify;
+    padding: 40px 4%;
+}
+/* FIM NOIVA */
+
+/* LOCAL */
+.geral .local {    
+    background-color: var(--rosa);
+}
+
+.geral .local .localizacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+} 
+
+.geral .local .localizacao p {
+    padding: 40px 4%;
+}
+
+.geral .local .localizacao img:not(.mapa) {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #232323;
+}
+
+.geral .local .localizacao img.mapa {
+    width: 200px;
+    position: absolute;
+    bottom: 30px;
+    right: 670px;
+
+}
+/* FIM LOCALIZAÇÃO */
+
+/* SOBRE */
+
+
+.geral .sobre .oqfazemos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    pad: 10px 2%;
+    margin-bottom: 90px;
+}
+
+.geral .sobre .oqfazemos h3 {
+    font-weight: 400;
+}
+
+.geral .sobre .oqfazemos img {
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #232323;
+}
+/* FIM SOBRE */
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 4%;
+    text-align: center;
+}
+
+footer .igual:not(.reservado)  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .igual{
+    width: 30%;
+    height: 100px;   
+}
+
+footer .bi-instagram:hover {
+    color: red;
+}
+footer .bi-facebook:hover {
+    color: blue;
+}
+footer .bi-whatsapp:hover {
+    color: green;
+}
+
+footer .reservado .copy{
+    font-size: 10px; 
+}
+
+footer .social-media .bi {
+    font-size: 30px;
+}
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .dev {
+    font-size: 10px;
+    flex-flow: column wrap;
+}
+
+footer .dev a:last-child {
+    color: blueviolet;
+}

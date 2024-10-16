@@ -1,0 +1,103 @@
+header#menuShow{
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    #desktop {
+        display: none;
+    }
+
+    .superior-fixo {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 4%;
+        position: relative;
+    }
+
+    .mobile .logo {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .mobile h1 {
+        position: absolute;
+        font-weight: 400;
+        z-index: 1;
+    }
+
+    .mobile #fechar {
+        display: none;
+    }
+    
+    .mobile .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        width: 100vw;
+        
+        background-color: black;
+        color: #fff;
+    }
+
+    .mobile .menu .links-show {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .mobile .menu .links-show a {
+        padding:10px 100vw ;
+        color: var(--rosa-logo);
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .mobile .menu .redes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .mobile .menu .redes a {
+        padding:30px;
+        font-size: 30px;
+    }
+
+    .mobile .menu .redes a .bi-instagram {
+        filter: drop-shadow(1px 1px 9px red);
+        color: red;
+    }
+    .mobile .menu .redes a .bi-facebook {
+        filter: drop-shadow(1px 1px 9px blue);
+        color: blue;
+    }
+    .mobile .menu .redes a .bi-whatsapp {
+        filter: drop-shadow(1px 1px 9px green);
+        color: green;
+    }
+
+}
