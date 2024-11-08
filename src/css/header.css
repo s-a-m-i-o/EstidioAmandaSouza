@@ -8,6 +8,7 @@
 .cabecalho img {
     width: 150px;
     filter: drop-shadow(0 0 7px #fe0171);
+    padding: 30px;
 }
 
 .cabecalho .em-cima {
