@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #ccc;
+}
+
+a, botton {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}

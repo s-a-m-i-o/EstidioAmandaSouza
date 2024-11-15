@@ -1,0 +1,41 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+i {
+    color: var(--cor-primaria);
+}
+
+span {
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+.btn {
+    background-color: var(--cor-primaria);
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: var(--cor-secundaria-clara);
+}
+
+.btn-interno {
+    background-color: #fff;
+    color: var(--cor-primaria);
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .3s;
+}
+
+.btn-interno:hover {
+    background-color: var(--cor-secundaria-clara);
+    color: #000;
+}
