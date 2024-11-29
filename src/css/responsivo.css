@@ -145,8 +145,7 @@
         width: 100%;
         height: auto;
         border-radius: 100%;
-        padding: auto;
-        box-shadow: 1px 3px 20px 5px #232323;
+        box-shadow: 1px 1px 10px  var(--cor-de-titulo);
     }
 
     footer {

@@ -27,19 +27,38 @@ h2 {
     margin-bottom: 30px;
 }
 
-.geral .trancas .imagem {
+.geral .trancas .container .cards-imgs {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    flex-flow: wrap;
+    gap: 2rem;
+    margin-bottom: 15px;
+}
+.geral .trancas .container .cards-imgs .card-img {
+    border: 2px solid var(--cor-primaria-escura);
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
-.geral .trancas .imagem img {
-    width: 220px;
-    height: 250px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 7px #232323;
+.geral .trancas .container .cards-imgs .item01{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.geral .trancas .container .cards-imgs .card-img p {
+    font-size: 3rem;
+    color: #fff;
+    font-family: "Jaro", sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px black;
 }
 /* FIM TRANÇAS */
 
@@ -49,7 +68,7 @@ h2 {
 }
 
 .geral .cursos .cards img {
-    width: 300px;
+    width: 250px;
     height: 300px;
     border-radius: 10px;
     box-shadow: 0px 3px 7px #232323;
