@@ -112,6 +112,10 @@
         justify-content: center;
     }
 
+    .geral .local .localizacao img:first-child {
+        display: none;
+    }
+
     .geral .local .container .localizacao a {
         text-align: center;
     }
