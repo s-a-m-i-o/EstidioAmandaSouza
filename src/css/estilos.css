@@ -45,6 +45,11 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    transition:all .5s;
+}
+
+.geral .trancas .container .cards-imgs .card-img:hover {
+    box-shadow: 3px 3px 17px var(--cor-primaria-escura);
 }
 
 .geral .trancas .container .cards-imgs .item01{
