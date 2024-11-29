@@ -58,6 +58,11 @@
         padding: 30px;
     }
 
+    .geral .cursos .card img {
+        width: 50%;
+        height: auto;
+    }
+
     .geral .cursos .container {
         height: 1220px;
     }
