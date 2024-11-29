@@ -58,8 +58,8 @@
         padding: 30px;
     }
 
-    .geral .cursos .card img {
-        width: 90%;
+    .geral .cursos .card img:first-child {
+        width: 50%;
         height: auto;
     }
 
