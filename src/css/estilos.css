@@ -1,7 +1,14 @@
 h2 {    
     font-weight: 200;
-    font-size: 35px;
+    font-size: 3rem;
     padding: 10px 4%;
+}
+
+.geral .inicio {
+    background-color: #CC3D03;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
 }
 
 .geral .inicio .container {
@@ -109,6 +116,13 @@ h2 {
     background-color: var(--rosa);
 }
 
+.geral .local .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .geral .local .localizacao {
     display: flex;
     align-items: center;
@@ -165,7 +179,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 4%;
     text-align: center;
 }
 
@@ -206,10 +219,10 @@ footer .social-media {
 }
 
 footer .dev {
-    font-size: 10px;
-    flex-flow: column wrap;
+    display: flex;
+    justify-content: end;
 }
 
-footer .dev a:last-child {
-    color: blueviolet;
+footer .dev img {
+    width: 20px;
 }

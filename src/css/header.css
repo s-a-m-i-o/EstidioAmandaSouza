@@ -1,13 +1,9 @@
-
-
 .cabecalho {
     display: flex;
-    border-bottom: 3px solid #fff;
 }
 
 .cabecalho img {
-    width: 150px;
-    filter: drop-shadow(0 0 7px #fe0171);
+    width: 250px;
     padding: 30px;
 }
 
@@ -21,6 +17,7 @@
 .cabecalho .em-cima h1 {
     font-weight: 200;
     text-transform: uppercase;
+    font-size: 3rem;
 }
 
 .cabecalho .em-cima nav .bi-instagram:hover {
@@ -43,7 +40,7 @@
 /* SUPERIOR- FIXO */
 .superior-fixo {
     background-color: #000;
-    color: #fff;
+    color: var(--cor-primaria);
     padding: 0 4%;
     display: flex;
     align-items: center;
@@ -60,7 +57,7 @@
 }
 
 .superior-fixo a:hover {
-    background-color: var(--rosa);
+    background-color: var(--cor-secundaria);
     color: #000;
 }
 

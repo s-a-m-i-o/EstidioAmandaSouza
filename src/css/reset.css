@@ -10,6 +10,8 @@ html {
 
 body {
     font-family: "Outfit", sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
 }  
 
 a {
