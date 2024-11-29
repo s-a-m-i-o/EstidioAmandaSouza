@@ -1,4 +1,8 @@
 @media (max-width: 768px) {  
+
+    h1,h2,h3,h4 {
+        font-size: 2rem;
+    }
     
     .mobile .logo {
         display: flex;
