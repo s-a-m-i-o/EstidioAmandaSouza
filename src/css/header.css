@@ -1,5 +1,6 @@
 .cabecalho {
-    display: flex;
+    display: flex;    
+    border-bottom: 1px solid var(--cor-primaria);
 }
 
 .cabecalho img {
@@ -41,6 +42,7 @@
 .superior-fixo {
     background-color: #000;
     color: var(--cor-primaria);
+    border-bottom: 1px solid var(--cor-primaria);
     padding: 0 4%;
     display: flex;
     align-items: center;
