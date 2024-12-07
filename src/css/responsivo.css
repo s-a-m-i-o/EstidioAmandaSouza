@@ -58,24 +58,29 @@
         padding: 30px;
     }
 
-    .geral .cursos .card img:first-child {
+    .geral .cursos .card img {
         width: 50%;
         height: auto;
+        margin: 5px;
     }
 
     .geral .cursos .container {
         height: 1220px;
     }
 
-    .geral .cursos .container .cards .card {
+    .geral .cursos .container-cursos .cards .card {
         flex-direction: column;
+    }
+
+    .geral .cursos .container-cursos .cards .card:first-child {
+        border-bottom: 5px solid var(--cor-primaria);
     }
 
     .geral .cursos .cards .card p {
         width: 300px;
-        text-align: center;
-        padding: 10px;
-        margin: 3px 10px;
+        padding: 2px;
+        margin: 3px;
+        font-size: 1rem;
     }
 
     .geral .noivas .container {

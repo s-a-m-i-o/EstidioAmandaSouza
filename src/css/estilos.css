@@ -36,6 +36,9 @@ h2 {
     margin-bottom: 15px;
 }
 .geral .trancas .container .cards-imgs .card-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border: 2px solid var(--cor-primaria-escura);
     border-radius: 10px;
     width: 300px;
@@ -52,12 +55,6 @@ h2 {
     box-shadow: 3px 3px 17px var(--cor-primaria-escura);
 }
 
-.geral .trancas .container .cards-imgs .item01{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .geral .trancas .container .cards-imgs .card-img p {
     font-size: 3rem;
     color: #fff;
@@ -68,15 +65,17 @@ h2 {
 /* FIM TRANÇAS */
 
 /* CURSOS */
-.geral .cursos {
-    background-color: var(--rosa);
+.geral .cursos .container-cursos {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
 }
 
 .geral .cursos .cards img {
     width: 250px;
     height: 300px;
     border-radius: 10px;
-    box-shadow: 0px 3px 7px #232323;
+    box-shadow: 0px 3px 7px var(--cor-primaria-escura);
 }
 
 .geral .cursos .cards {
@@ -95,7 +94,7 @@ h2 {
 .geral .cursos .cards .card p {
     width: 600px;
     height: 200px;
-    text-align: justify;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +129,6 @@ h2 {
 }
 
 .geral .noivas .container p {
-    text-align: justify;
     padding: 40px 4%;
 }
 /* FIM NOIVA */
@@ -240,13 +238,4 @@ footer .social-media {
     align-items: center;
     justify-content: center;
     gap: 15px;
-}
-
-footer .dev {
-    display: flex;
-    justify-content: end;
-}
-
-footer .dev img {
-    width: 20px;
 }

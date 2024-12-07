@@ -6,6 +6,13 @@
         filter: drop-shadow(1px 1px 1px black);
 }
 
+.nome2 {    
+    font-family: "Dancing Script", cursive;
+    font-size: 28px;
+    color: black;
+    filter: drop-shadow(1px 1px 1px var(--amarelo));
+}
+
 .container {
     width: 100%;
     margin: auto;

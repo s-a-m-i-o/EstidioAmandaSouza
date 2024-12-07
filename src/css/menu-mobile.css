@@ -39,10 +39,18 @@ header#menuShow{
         margin-bottom: 30px;
     }
 
-    .mobile h1 {
-        position: absolute;
-        font-weight: 400;
-        z-index: 1;
+    .mobile .mobile-menu-icon button {
+        background-color: black;
+    }
+
+    .mobile .mobile-menu-icon #clicar .de-cima {
+        background-color: var(--cor-secundaria)
+    }
+    .mobile .mobile-menu-icon #clicar .do-meio {
+        background-color: var(--cor-secundaria)
+    }
+    .mobile .mobile-menu-icon #clicar .de-baixo {
+        background-color: var(--cor-secundaria)
     }
 
     .mobile #fechar {
@@ -55,8 +63,7 @@ header#menuShow{
         justify-content: center;
         flex-direction: column;
         padding: 10px;
-        width: 100vw;
-        
+        width: 100vw;        
         background-color: black;
         color: #fff;
     }
@@ -71,7 +78,7 @@ header#menuShow{
 
     .mobile .menu .links-show a {
         padding:10px 100vw ;
-        color: var(--rosa-logo);
+        color: var(--cor-primaria);
         font-size: 20px;
         font-weight: 300;
     }
