@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;    
+    list-style: none;    
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+
+
+a,
+button {
+    cursor: pointer;
+    color: inherit;
+}
