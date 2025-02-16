@@ -6,82 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia AfroExpert</title>
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/todos.css">
+    <link rel="stylesheet" href="./src/css/imports.css">
     <link rel="stylesheet" href="./src/css/root.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/css/estilo-header.css">
+    <link rel="stylesheet" href="./src/css/estilo-main.css">
+
+
 </head>
 
 <body>
-    <header>
-        <div class="logo"><a href="#hero">Academia AfroExpert</a></div>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
+    <header class="header" id="cima">
+        <nav class="nav">
+            <ul class="lista">
+                <li><a href="#cima">Inicio</a></li>
                 <li><a href="#cursos">Cursos</a></li>
                 <li><a href="#mentoria">Mentoria</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#duvida">Dúvidas</a></li>
             </ul>
         </nav>
+
     </header>
+    <div class="up">
+        <a href="#cima">
+            <i class="fa-regular fa-circle-up"></i>
+        </a>
+    </div>
 
     <main>
         <section class="hero" id="hero">
+            <div class="logo">
+                <a class="texto-diferente" href="#hero"> <span class="letra-grande">A</span>cademia AfroExpert</a>
+            </div>
             <h1>Criando uma nova visão para detalhes IMPORTANTES</h1>
             <a href="#inscricao" class="btn">Garanta sua vaga agora</a>
         </section>
-    
-        <section id="sobre" class=" content">
+
+        <section id="cursos" class="sobre content">
             <h2>Academia AfroExpert é ideia para:</h2>
-            <p>✔️ Profissionais da beleza que querem se especializar – Se você já trabalha na área e quer oferecer novos
-                serviços para suas clientes, este curso vai te ajudar a aprimorar suas habilidades e agregar mais valor ao
-                seu trabalho.</p>
-            <p>✔️ Iniciantes que querem aprender do zero – Se você nunca fez uma trança ou penteado profissional, eu vou te
-                ensinar passo a passo, desde as técnicas básicas até as mais avançadas.</p>
-            <p>Se você quer aprimorar suas habilidades, ter um negócio lucrativo no ramo das tranças e penteados, aprendendo
-                não só as técnicas, mas também como divulgar seu trabalho nas redes sociais e atrair clientes, esse curso é
-                para VOCÊ!</p>
+            <div class="cards">
+                <div class="card">
+                    <p>
+
+                        <img src="./src/img/tesoura.png" alt="Profissionais">
+                        Profissionais da beleza que querem se especializar – Se você já trabalha na área e quer oferecer
+                        novos
+                        serviços para suas clientes, este curso vai te ajudar a aprimorar suas habilidades e agregar
+                        mais valor ao
+                        seu trabalho.
+                    </p>
+                    <p>
+                        <img src="./src/img/chapeu.png" alt="Iniciantes">
+                        Iniciantes que querem aprender do zero – Se você nunca fez uma trança ou penteado profissional,
+                        eu vou te
+                        ensinar passo a passo, desde as técnicas básicas até as mais avançadas.
+                    </p>
+                </div>
+                <p class="texto">
+                    Se você quer aprimorar suas habilidades, ter um negócio lucrativo no ramo das tranças e penteados,
+                    aprendendo
+                    não só as técnicas, mas também como divulgar seu trabalho nas redes sociais e atrair clientes, esse
+                    curso é
+                    para VOCÊ!
+                </p>
+            </div>
+            <div class="varias">
+                <img src="./src/img/foto2-5.svg" alt="">
+                <p>Aprenda no seu ritmo – Curso 100% online</p>
+                <a href="#" class="btn">Clique aqui e assita de onde quiser</a>
+            </div>
+
         </section>
-    
-        <section id="cursos" class="content">
+
+        <section class="cursos">
             <h2>Nossos Cursos</h2>
-            <p>✔️ Aprenda no seu ritmo – Curso 100% online, assista de onde quiser.</p>
-            <p>✔️ Mentoria ao vivo – Tire suas dúvidas comigo todos os meses.</p>
-            <p>✔️ Rede de Apoio – Na nossa comunidade de alunos vamos trocar experiências, evoluções e dúvidas.</p>
-            <p>✔️ Destravando nas redes sociais – Tudo que você precisa saber para atrair pessoas através do seu trabalho.
-            </p>
+            <div class="cards-cursos">
+                <p class="card-cursos">
+                    Aprenda no seu ritmo – Curso 100% online, assista de onde quiser.
+
+                    <i class="bi bi-collection-play"></i>
+                </p>
+                <p class="card-cursos">
+                    Mentoria ao vivo – Tire suas dúvidas comigo todos os meses.
+
+                    <i class="bi bi-chat-right-dots-fill"></i>
+                </p>
+                <img src="./src/img/foto6.svg" alt="Mentoria">
+                <p class="card-cursos">
+                    Rede de Apoio – Na nossa comunidade de alunos vamos trocar experiências, evoluções e dúvidas.
+
+                    <i class="fa fa-solid fa-users"></i>
+                </p>
+                <p class="card-cursos ultimo">
+                    Destravando nas redes sociais – Tudo que você precisa saber para atrair pessoas através do seu
+                    trabalho.
+                    <i class="fa fa-brands fa-facebook"></i>
+                    <i class="fa fa-brands fa-youtube"></i>
+                    <i class="fa fa-brands fa-instagram"></i>
+
+                </p>
+            </div>
         </section>
-    
-        <section id="mentoria" class="content">
+
+        <section id="mentoria" class="mentoria content">
+            <h2>Mentoria ao vivo</h2>
+            <h3>Tire suas dúvidas comigo todos os meses.</h3>
+            <img src="./src/img/foto7.svg" alt="Mentoria">
+
+
+        </section>
+        <section id="sobre" class="sobre-amanda content">
             <h2>Sobre Amanda Souza</h2>
-            <p>A 10 anos da área, e 4 anos ministrando cursos presenciais, já ajudou centenas de pessoas a trançar do zero e
-                centenas de profissionais a evoluírem seus resultados e ter uma nova visão...</p>
-            <a href="#inscricao" class="btn">Faça parte do Academia AfroExpert</a>
+
+            <div class="sobre-amanda-interno">
+                <img src="./src/img/foto8.svg" alt="">
+                <p>
+                    A 10 anos da área, e 4 anos ministrando cursos presenciais, já ajudou centenas de pessoas a trançar
+                    do zero e centenas de profissionais a evoluirem seus resultados e ter uma nova visão, ganhadora de
+                    prêmios, e reconhecimento internacional pelo brilho em detalhes que seu trabalho traspassa. Academia
+                    AfroExpert é uma junção de todo conhecimento em técnicas para tranças e Penteados afros e também seu
+                    conhecimento sobre oque é empreender e como se manter em constante evolução por tantos anos.
+                </p>
+                <a href="#inscricao" class="btn">Faça parte do Academia AfroExpert</a>
+            </div>
         </section>
-    
-        <section id="feedback" class="content">
+
+        <section id="feedback" class="feedback content">
             <h2>Alunos Satisfeitos</h2>
-            <p>GARANTA SUA VAGA HOJE E FAÇA PARTE DESSE TIME DE ALUNOS!</p>
-            <a href="#inscricao" class="btn">EU PRECISO DESSE CURSO</a>
+            <div class="alunos">
+                <img src="./src/img/foto9.svg" alt="Alunos satisfeitos">
+                <img src="./src/img/foto10.svg" alt="Alunos satisfeitos">
+                <img src="./src/img/foto11.svg" alt="Alunos satisfeitos">
+            </div>
+            <p>
+                GARANTA SUA VAGA HOJE E FAÇA PARTE DESSE TIME DE ALUNOS!
+            </p>
+            <div class="apontando">
+                <img src="./src/img/foto12.svg" alt="">
+                <a href="#" class="btn">EU PRECISO DESSE CURSO</a>
+            </div>
         </section>
-    
-        <section id="faq" class="content">
-            <h2>Está com dúvidas?</h2>
-            <p>Eu entendo que investir em um curso pode gerar insegurança, e por isso quero te ajudar a tomar a melhor
-                decisão!</p>
-            <p><strong>❓ Preciso ter experiência para fazer o curso?</strong><br> Não! O curso é para todos, do iniciante ao
-                avançado.</p>
-            <p><strong>❓ O curso é 100% online?</strong><br> Sim! Você pode assistir de onde quiser, no seu ritmo, e terá
-                acesso de 12 meses ao conteúdo.</p>
-            <p><strong>❓ Terei suporte para tirar dúvidas?</strong><br> Sim! Além das aulas gravadas, você terá mentorias ao
-                vivo comigo todos os meses.</p>
-            <p><strong>❓ O curso ensina só as técnicas ou também como ganhar dinheiro com isso?</strong><br> Além das
-                técnicas, eu ensino sobre gestão, precificação e redes sociais.</p>
+
+        <section id="duvida" class="duvida">
+            <div class="pergunta">
+                <img src="./src/img/foto13.svg" alt="Duvidas">
+                <div class="resposta">
+                    <h2>Está com dúvidas?</h2>
+                    <p class="centro">Eu entendo que investir em um curso pode gerar insegurança, e por isso quero te
+                        ajudar a tomar a melhor
+                        decisão!</p>
+                    <p><strong>Preciso ter experiência para fazer o curso?</strong><br> Não! O curso é para todos, do
+                        iniciante ao
+                        avançado.</p>
+                    <p><strong>O curso é 100% online?</strong><br> Sim! Você pode assistir de onde quiser, no seu ritmo,
+                        e
+                        terá
+                        acesso de 12 meses ao conteúdo.</p>
+                    <p><strong>Terei suporte para tirar dúvidas?</strong><br> Sim! Além das aulas gravadas, você terá
+                        mentorias ao
+                        vivo comigo todos os meses.</p>
+                    <p><strong>O curso ensina só as técnicas ou também como ganhar dinheiro com isso?</strong><br> Além
+                        das
+                        técnicas, eu ensino sobre gestão, precificação e redes sociais.</p>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
-    
+
 
     <footer>
         <p>&copy; 2025 Academia AfroExpert. Todos os direitos reservados.</p>
+        <div class="redes">
+            <a href="#"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-brands fa-instagram"></i></a>           
+            
+            
+        </div>
     </footer>
 </body>
 

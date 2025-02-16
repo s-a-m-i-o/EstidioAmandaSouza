@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header .nav {
+    width: 100%;
+    text-align: center;position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header .nav .lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 4%;
+    background-color: #232323;
+}
+
+.header .nav .lista li {    
+    color: var(--cor-secundaria);
+    transition: all .3s;
+}
+
+.header .nav .lista li:hover{
+    color: var(--cor-secundaria-clara);
+}
+
+.header .nav .lista a {
+    padding: 20px 25px;
+    font-size: 1.2rem;
+}

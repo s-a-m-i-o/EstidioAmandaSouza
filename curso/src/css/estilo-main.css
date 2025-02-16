@@ -1,0 +1,457 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    background: url('../img/foto1.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .logo a.texto-diferente {
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    text-shadow: 0 0 3px black;
+    color: var(--cor-primaria);
+}
+
+.hero .logo a span.letra-grande {
+    font-family: "Cinzel", serif;
+    display: inline-block;
+    font-size: 8rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 3px black;
+}
+
+.hero a.btn {
+    background-color: var(--cor-primaria);
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px black;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+
+.hero a.btn:hover {
+    background-color: var(--cor-secundaria);
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px black;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    h2 {
+        font-size: 3rem;
+        color: var(--cor-primaria);
+    }
+}
+
+.sobre .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.sobre .cards .card img {
+    width: 30px;
+}
+
+.sobre .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #232323;
+    font-size: 1.5rem;
+    border: 1px solid #6d6d6d;
+}
+
+.sobre .cards .card p:not(:last-child) {
+    border-right: 1px solid var(--cor-primaria);
+    height: 50%;
+}
+
+
+.sobre .cards .card p {
+    flex: 1 1 300px;
+    max-width: 500px;
+    padding: 30px 50px;
+}
+
+.sobre p.texto {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Emilys Candy", serif;
+    color: var(--cor-secundaria-clara);
+}
+
+.sobre .varias img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px var(--cor-primaria-escura);
+}
+
+.sobre .varias {
+    position: relative;
+    text-shadow: 0 0 3px black;
+}
+
+.sobre .varias p {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px 10px;
+    width: 80%;
+    background-color: #232323a6;
+    border-radius: 7px;
+}
+
+
+.sobre .varias a {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: var(--cor-primaria);
+    border-radius: 7px;
+    font-size: 1.5rem;
+}
+
+.cursos h2 {
+    font-size: 3rem;
+    color: var(--cor-primaria);
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cursos .cards-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cursos .cards-cursos p.card-cursos {
+    flex: auto;
+    width: 250px;
+    max-width: 280px;
+    height: 300px;
+    border: 3px dotted var(--cor-secundaria-clara);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cursos .cards-cursos p:not(.ultimo) {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cursos .card-cursos i.bi,
+.fa {
+    font-size: 4rem;
+}
+
+.cursos .cards-cursos p.ultimo {
+    position: relative;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cursos .cards-cursos p .bi-collection-play {
+    color: green;
+}
+
+.cursos img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px var(--cor-primaria-escura);
+}
+
+.cursos .cards-cursos p .fa-users {
+    color: var(--cor-primaria);
+}
+
+.cursos .cards-cursos p.ultimo .fa-facebook {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(50%);
+    color: blue;
+}
+
+.cursos .cards-cursos p.ultimo .fa-instagram {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-60%);
+    z-index: 2;
+    background: linear-gradient(orange, yellow);
+    border-radius: 10px;
+}
+
+.cursos .cards-cursos p.ultimo .fa-youtube {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50% -50%);
+    z-index: 3;
+    color: red;
+}
+
+.mentoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mentoria img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px var(--cor-primaria-escura);
+}
+
+.mentoria h3 {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.mentoria a.btn {
+    position: absolute;
+    bottom: 10px;
+
+    background-color: var(--cor-primaria);
+    padding: 10px 30px;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px black;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+
+.mentoria a.btn:hover {
+    background-color: var(--cor-secundaria);
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px black;
+}
+
+.sobre-amanda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-amanda-interno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 2rem;
+}
+
+.sobre-amanda img {
+    width: 60%;
+    max-width: 1200px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px var(--cor-primaria-escura);
+}
+
+.sobre-amanda p {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 0 0 3px black;
+    background-color: #00000040;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.sobre-amanda a.btn {
+    position: absolute;
+    bottom: 10px;
+
+    background-color: var(--cor-primaria);
+    padding: 10px 30px;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px black;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #232323;
+}
+
+.feedback img {
+    width: 400px;
+    max-width: 500px;
+    flex: auto;
+}
+
+.feedback .alunos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B1014;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.feedback .apontando {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.feedback p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.feedback .apontando a.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor-primaria);
+    padding: 10px 30px;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px black;
+    transition: all .3s;
+    text-transform: uppercase;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}
+
+.duvida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 58px 4% 10px 4%;
+}
+
+.duvida img {
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px var(--cor-primaria-escura);
+}
+
+.duvida .pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.duvida .pergunta .resposta {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.duvida .pergunta .resposta strong {
+    color: var(--cor-primaria);
+}
+
+.duvida .pergunta .resposta p.centro {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+    height: 150px;
+    padding: 30px 4%;
+    font-size: 1rem;
+}
+
+footer .redes  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+
+    i {
+        font-size: 1rem;
+    }
+}
+
+footer .redes .fa-facebook {
+    color: blue;
+}
+footer .redes .fa-youtube {
+    color: red;
+}
+footer .redes .fa-instagram {
+    color: orange;
+}
