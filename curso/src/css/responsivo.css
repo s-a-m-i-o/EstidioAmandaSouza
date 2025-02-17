@@ -1,0 +1,96 @@
+@media (max-width:750px) {
+    .hero {
+        width: 100%;
+        background: url('../img/foto1-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    .hero .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: c;
+    }
+
+    .hero .logo a.texto-diferente {
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .hero .logo a span.letra-grande {
+        font-size: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero a.btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .sobre .cards .card {
+        flex-direction: column;
+    }
+
+    .sobre .cards .card p:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid var(--cor-primaria);
+
+    }
+
+    .sobre .varias p {
+        font-size: 2em;
+    }
+
+    .sobre .varias a {
+        font-size: 1rem;
+        bottom: 0;
+        padding: none;
+    }
+
+    .sobre-amanda-interno {
+        flex-direction: column;
+    }
+
+    .sobre-amanda img {
+        width: 100%;
+    }
+
+    .sobre-amanda p {
+        font-size: 1.5rem;
+    }
+
+    .feedback .apontando  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .feedback p {
+        font-size: 1.5rem;
+    }
+
+    .feedback .alunos img {
+        width: 90%;
+    }
+
+    .feedback .apontando img {
+        width: 150px;
+    }
+
+    .feedback .apontando a.btn {
+        font-size: 0.7rem;
+        padding: 10px 35px;
+    }
+
+    .duvida img  {
+        width: 100%;
+    }
+
+    .duvida .pergunta {
+        flex-direction: column-reverse;
+    }
+}
