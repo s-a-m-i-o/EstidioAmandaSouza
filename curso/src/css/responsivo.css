@@ -1,4 +1,11 @@
 @media (max-width:750px) {
+    .duvida .pergunta{
+        display: none;
+    }
+
+    .duvida-mobile {
+        display: block;
+    }
     section {
         margin-bottom: 60px;
     }
@@ -113,5 +120,21 @@
 
     .duvida .pergunta {
         flex-direction: column-reverse;
+    }
+
+    .duvida-mobile img {
+        width: 100%;
+    }
+
+    .duvida-mobile {
+        padding: 10px 4%;
+        position: relative;
+    }
+
+    .duvida-mobile h2 {
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        font-size: 2.5rem;
     }
 }

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./src/css/estilo-header.css">
     <link rel="stylesheet" href="./src/css/estilo-main.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
-    <script defer src="./src/js/hamburger.js"></script>
+    <script src="./src/js/hamburger.js" defer></script>
 
 
 
@@ -19,17 +19,40 @@
 
 <body>
     <header class="header" id="cima">
-        <button class="hamburger"></button>
 
-        <nav class="nav">
+        <nav class="nav desktop">
             <ul class="lista">
                 <li><a href="#cima">Inicio</a></li>
-                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#cursos">Curso</a></li>
                 <li><a href="#mentoria">Mentoria</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#duvida">Dúvidas</a></li>
+
             </ul>
         </nav>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#cima">Inicio</a></li>
+                    <li><a href="#cursos">Curso</a></li>
+                    <li><a href="#mentoria">Mentoria</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#duvida">Dúvidas</a></li>
+                    <li><a class="btn-diferente" href="https://pay.hotmart.com/E97317058W?bid=1739914598754"
+                            target="_blank">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
 
     </header>
     <div class="up">
@@ -42,16 +65,17 @@
         <section class="hero" id="hero">
 
             <img class="so-mobile" src="./src/img/foto1-mobile.svg" alt="Foto principal">
-            
+
             <div class="logo">
                 <a class="texto-diferente" href="#h"> <span class="letra-grande">A</span>cademia AfroExpert</a>
             </div>
             <h1>Criando uma nova visão para detalhes IMPORTANTES</h1>
-            <a href="#inscricao" class="btn">Garanta sua vaga agora</a>
+            <a href="https://pay.hotmart.com/E97317058W?bid=1739914598754" target="_blank" class="btn">Garanta sua vaga
+                agora</a>
         </section>
 
         <section id="cursos" class="sobre content">
-            <h2>Academia AfroExpert é ideia para:</h2>
+            <h2>Academia AfroExpert é ideal para:</h2>
             <div class="cards">
                 <div class="card">
                     <p>
@@ -80,13 +104,14 @@
             <div class="varias">
                 <img src="./src/img/foto2-5.svg" alt="">
                 <p>Aprenda no seu ritmo – Curso 100% online</p>
-                <a href="#" class="btn">Clique aqui e assita de onde quiser</a>
+                <a href="https://pay.hotmart.com/E97317058W?bid=1739914598754" target="_blank" class="btn">Clique aqui e
+                    assita de onde quiser</a>
             </div>
 
         </section>
 
         <section class="cursos">
-            <h2>Nossos Cursos</h2>
+            <h2>Nosso Curso</h2>
             <div class="cards-cursos">
                 <p class="card-cursos">
                     Aprenda no seu ritmo – Curso 100% online, assista de onde quiser.
@@ -123,16 +148,20 @@
 
         </section>
         <section id="sobre" class="sobre-amanda content">
-            
+
 
             <div class="sobre-amanda-interno">
                 <div class="direito">
                     <h2>Sobre Amanda Souza</h2>
                     <p>
-                        A 10 anos da área, e 4 anos ministrando cursos presenciais, já ajudou centenas de pessoas a trançar
-                        do zero e centenas de profissionais a evoluirem seus resultados e ter uma nova visão, ganhadora de
-                        prêmios, e reconhecimento internacional pelo brilho em detalhes que seu trabalho traspassa. Academia
-                        AfroExpert é uma junção de todo conhecimento em técnicas para tranças e Penteados afros e também seu
+                        A 10 anos da área, e 4 anos ministrando cursos presenciais, já ajudou centenas de pessoas a
+                        trançar
+                        do zero e centenas de profissionais a evoluirem seus resultados e ter uma nova visão, ganhadora
+                        de
+                        prêmios, e reconhecimento internacional pelo brilho em detalhes que seu trabalho traspassa.
+                        Academia
+                        AfroExpert é uma junção de todo conhecimento em técnicas para tranças e Penteados afros e também
+                        seu
                         conhecimento sobre oque é empreender e como se manter em constante evolução por tantos anos.
                     </p>
                 </div>
@@ -152,7 +181,8 @@
             </p>
             <div class="apontando">
                 <img src="./src/img/foto12.svg" alt="">
-                <a href="#" class="btn">EU PRECISO DESSE CURSO</a>
+                <a href="https://pay.hotmart.com/E97317058W?bid=1739914598754" target="_blank" class="btn">EU PRECISO
+                    DESSE CURSO</a>
             </div>
         </section>
 
@@ -179,6 +209,37 @@
                         técnicas, eu ensino sobre gestão, precificação e redes sociais.</p>
                 </div>
             </div>
+
+            <div class="duvida-mobile">
+                    <img src="./src/img/foto13.svg" alt="Duvidas">
+                    <h2>Está com dúvidas?</h2>
+                    <div class="resposta">
+                        <p class="centro">
+                            Eu entendo que investir em um curso pode gerar insegurança, e por isso quero te ajudar a tomar a melhor decisão!
+                        </p>
+                        <p>
+                            <strong>Preciso ter experiência para fazer o curso?</strong><br> Não! O curso é para todos, do
+                            iniciante ao
+                            avançado.
+                        </p>
+                        <p>
+                            <strong>O curso é 100% online?</strong><br> Sim! Você pode assistir de onde quiser, no seu ritmo,
+                            e
+                            terá
+                            acesso de 12 meses ao conteúdo.
+                        </p>
+                        <p>
+                            <strong>Terei suporte para tirar dúvidas?</strong><br> Sim! Além das aulas gravadas, você terá
+                            mentorias ao
+                            vivo comigo todos os meses.
+                        </p>
+                        <p>
+                            <strong>O curso ensina só as técnicas ou também como ganhar dinheiro com isso?</strong><br> Além
+                            das
+                            técnicas, eu ensino sobre gestão, precificação e redes sociais.
+                        </p>
+                    
+                </div>
             </div>
         </section>
     </main>
@@ -189,9 +250,10 @@
         <div class="redes">
             <a href="#"><i class="fa fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa fa-brands fa-instagram"></i></a>           
-            
-            
+            <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="studio">
+            <a href="https://studioamandasouza.netlify.app/" target="_blank">Studio Amanda Souza</a>
         </div>
     </footer>
 </body>

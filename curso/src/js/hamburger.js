@@ -1,7 +1,15 @@
-const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector(".nav");
+let btnMenu = document.getElementById('btn-menu');
+let menu = document.getElementById('menu-mobile');
+let overlay = document.getElementById('overlay-menu')
 
-hamburger.addEventListener("click", () => {
-    console.log("Botão clicado!");
-    nav.classList.toggle("active");
-});
+btnMenu.addEventListener('click', ()=>{
+    menu.classList.add('abrir-menu')
+})
+
+menu.addEventListener('click', ()=>{
+    menu.classList.remove('abrir-menu')
+})
+
+overlay.addEventListener('click', ()=>{
+    menu.classList.remove('abrir-menu')
+})
