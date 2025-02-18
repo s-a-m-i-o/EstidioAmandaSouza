@@ -431,9 +431,14 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: #232323;
-    height: 150px;
+    height: 100px;
     padding: 30px 4%;
     font-size: 1rem;
+}
+
+footer img {
+    width: 120px;
+    filter: drop-shadow(0 0 0 #fff);
 }
 
 footer .redes  {
@@ -444,15 +449,19 @@ footer .redes  {
     font-size: 1rem;
 
     i {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
-footer .redes .fa-facebook {
+footer .redes a {
+    padding: 30px;
+}
+
+footer .redes .bi-facebook {
     color: blue;
 }
-footer .redes .fa-youtube {
-    color: red;
+footer .redes .bi-whatsapp {
+    color: green;
 }
 footer .redes .fa-instagram {
     color: orange;
