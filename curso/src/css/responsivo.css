@@ -1,28 +1,48 @@
 @media (max-width:750px) {
+    section {
+        margin-bottom: 60px;
+    }
+    .so-mobile {
+        display: block;
+    }
     .hero {
         width: 100%;
-        background: url('../img/foto1-mobile.svg');
-        background-repeat: no-repeat;
+        height: 255px;
+        background: none;
+        position: relative;
+    }
+
+    .hero img.so-mobile  {
+        width: 100%;
     }
 
     .hero .logo {
-        width: 100%;
+        width: 90%;
+        padding: 0 20px;
         display: flex;
         align-items: center;
-        justify-content: c;
+        justify-content: center;
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        flex-wrap: wrap;
     }
 
     .hero .logo a.texto-diferente {
-        font-size: 3.3rem;
+        font-size:2rem;
         text-align: center;
     }
 
     .hero .logo a span.letra-grande {
-        font-size: 5rem;
+        font-size: 2.2rem;
     }
 
     .hero h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
+        position: absolute;
+        bottom: -150px;
+        left: 1%;
     }
 
     .hero a.btn {
@@ -48,6 +68,7 @@
         font-size: 1rem;
         bottom: 0;
         padding: none;
+        width: 90%;
     }
 
     .sobre-amanda-interno {
@@ -83,7 +104,7 @@
 
     .feedback .apontando a.btn {
         font-size: 0.7rem;
-        padding: 10px 35px;
+        padding: 7px;
     }
 
     .duvida img  {
